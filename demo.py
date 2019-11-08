@@ -24,3 +24,8 @@ orig = "snga 'phros a ri gzhung dang rgya gar gzhung so sor gsang ba'i thog nas 
 
 print(converter.toUnicode(orig, warns))
 print(warns)
+
+warns = []
+orig = "dangs"
+print(converter.toUnicode(orig, warns))
+print(warns)
